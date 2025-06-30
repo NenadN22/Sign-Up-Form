@@ -58,7 +58,9 @@ title {
     color: black;
 }
 form {
-    width:80%;
+    width: 80%;
+    margin-bottom: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
 }
 
 .forms_divs {
@@ -88,7 +90,6 @@ input {
     padding-right: 4vw;
     border: 2px solid #E5E7EB;
     border-radius: 5px;
-
 }
 
 input:focus {
