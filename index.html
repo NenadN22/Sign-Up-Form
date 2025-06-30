@@ -20,10 +20,26 @@
     <div class="right-div">
         <h2>Get Started</h2>
         <form action="?" method="post">
-            <div>
+            <div class="forms_divs">
             <label for="name">First Name</label>
             <input type="text" id="name" name="firstName">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="Last Name">
             </div>
+            <div class="forms_divs">
+                <label for="email">Email</label>
+                <input required type="email" name="Email" id="email">
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required id="phone">
+            </div>
+            <div class="forms_divs">
+                <label for="password">Password</label>
+                <input type="password" name="Password" id="password">
+                <label for="password">Confirm Password</label>
+                <input type="password" name="confirm_password" id="confirm_password">
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </form>
     </div>
     

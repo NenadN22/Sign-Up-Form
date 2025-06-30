@@ -51,3 +51,7 @@ title {
 input,label {
     display: block;
 }
+.forms_divs {
+    display: flex;
+
+}
