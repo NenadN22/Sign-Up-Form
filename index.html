@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -18,27 +20,42 @@
 
     </div>
     <div class="right-div">
-        <h2>Get Started</h2>
-        <form action="?" method="post">
+        <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+        Sign up now to get started.</h2>
+        <h2>Let's do this!</h2>
+        <form action="?" id="myform" method="post">
             <div class="forms_divs">
+            <div class="label-div">
             <label for="name">First Name</label>
             <input type="text" id="name" name="firstName">
+            </div>
+            <div class="label-div">
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="Last Name">
             </div>
+            </div>
+
             <div class="forms_divs">
+                <div class="label-div">
                 <label for="email">Email</label>
                 <input required type="email" name="Email" id="email">
+                </div>
+                <div class="label-div">
                 <label for="phone">Phone Number</label>
-                <input type="tel" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required id="phone">
+                <input type="tel" name="phone_number" required id="phone">
+                </div>
             </div>
             <div class="forms_divs">
+                <div class="label-div">
                 <label for="password">Password</label>
-                <input type="password" name="Password" id="password">
+                <input required type="password" name="Password" id="password">
+                </div>
+                <div class="label-div">
                 <label for="password">Confirm Password</label>
-                <input type="password" name="confirm_password" id="confirm_password">
+                <input required type="password" name="confirm_password" id="confirm_password">
+                </div>
             </div>
-            <button type="submit">Create Account</button>
+            <button value="Submit" type="submit">Create Account</button>
             <p>Already have an account? <a href="#">Log in</a></p>
         </form>
     </div>
