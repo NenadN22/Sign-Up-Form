@@ -23,7 +23,7 @@
         <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
         Sign up now to get started.</h2>
         <h2>Let's do this!</h2>
-        <form action="?" id="myform" method="post">
+        <form action=""  id="myform" method="post">
             <div class="forms_divs">
             <div class="label-div">
             <label for="name">First Name</label>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="label-div">
                 <label for="phone">Phone Number</label>
-                <input type="tel" name="phone_number" required id="phone">
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" name="phone_number" required id="phone">
                 </div>
             </div>
             <div class="forms_divs">
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <button value="Submit" type="submit">Create Account</button>
-            <p>Already have an account? <a href="#">Log in</a></p>
+            <p class="log-in">Already have an account? <a href="#">Log in</a></p>
         </form>
     </div>
     
